@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABDE8881DA5BE870036CF2B /* HealthFinderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDE8871DA5BE870036CF2B /* HealthFinderTableViewCell.swift */; };
+		CAD3CB971DA5B45000E6E539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD3CB961DA5B45000E6E539 /* AppDelegate.swift */; };
+		CAD3CB9C1DA5B45000E6E539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD3CB9A1DA5B45000E6E539 /* Main.storyboard */; };
+		CAD3CB9E1DA5B45000E6E539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD3CB9D1DA5B45000E6E539 /* Assets.xcassets */; };
+		CAD3CBA11DA5B45000E6E539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD3CB9F1DA5B45000E6E539 /* LaunchScreen.storyboard */; };
+		CAD3CBAA1DA5B4C000E6E539 /* HealthFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD3CBA91DA5B4C000E6E539 /* HealthFinderViewController.swift */; };
+		EE71D41EF68C96240C431655 /* Pods_HealthFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1B99B3D159A0A82636AB7D /* Pods_HealthFinder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D1B99B3D159A0A82636AB7D /* Pods_HealthFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D09A63EE5795A0EAC3A72A /* Pods-HealthFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthFinder/Pods-HealthFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		CABDE8871DA5BE870036CF2B /* HealthFinderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthFinderTableViewCell.swift; sourceTree = "<group>"; };
+		CAD3CB931DA5B45000E6E539 /* HealthFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD3CB961DA5B45000E6E539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD3CB9B1DA5B45000E6E539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD3CB9D1DA5B45000E6E539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD3CBA01DA5B45000E6E539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD3CBA21DA5B45000E6E539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD3CBA91DA5B4C000E6E539 /* HealthFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthFinderViewController.swift; sourceTree = "<group>"; };
+		E2A052452558ECDBB73A44E9 /* Pods-HealthFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthFinder/Pods-HealthFinder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD3CB901DA5B44F00E6E539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE71D41EF68C96240C431655 /* Pods_HealthFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30594440269ECD2C8BE5D530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65D09A63EE5795A0EAC3A72A /* Pods-HealthFinder.debug.xcconfig */,
+				E2A052452558ECDBB73A44E9 /* Pods-HealthFinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A11CF47ABCE255B2DCF191A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B99B3D159A0A82636AB7D /* Pods_HealthFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD3CB8A1DA5B44F00E6E539 = {
+			isa = PBXGroup;
+			children = (
+				CAD3CB951DA5B45000E6E539 /* HealthFinder */,
+				CAD3CB941DA5B45000E6E539 /* Products */,
+				30594440269ECD2C8BE5D530 /* Pods */,
+				A11CF47ABCE255B2DCF191A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD3CB941DA5B45000E6E539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD3CB931DA5B45000E6E539 /* HealthFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD3CB951DA5B45000E6E539 /* HealthFinder */ = {
+			isa = PBXGroup;
+			children = (
+				CAD3CBA81DA5B46700E6E539 /* Supporting FIles */,
+				CAD3CB9A1DA5B45000E6E539 /* Main.storyboard */,
+				CAD3CBA91DA5B4C000E6E539 /* HealthFinderViewController.swift */,
+				CABDE8871DA5BE870036CF2B /* HealthFinderTableViewCell.swift */,
+			);
+			path = HealthFinder;
+			sourceTree = "<group>";
+		};
+		CAD3CBA81DA5B46700E6E539 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				CAD3CB961DA5B45000E6E539 /* AppDelegate.swift */,
+				CAD3CB9D1DA5B45000E6E539 /* Assets.xcassets */,
+				CAD3CB9F1DA5B45000E6E539 /* LaunchScreen.storyboard */,
+				CAD3CBA21DA5B45000E6E539 /* Info.plist */,
+			);
+			name = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD3CB921DA5B44F00E6E539 /* HealthFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD3CBA51DA5B45000E6E539 /* Build configuration list for PBXNativeTarget "HealthFinder" */;
+			buildPhases = (
+				4BEC3C65AE00B95618ED6BC7 /* [CP] Check Pods Manifest.lock */,
+				CAD3CB8F1DA5B44F00E6E539 /* Sources */,
+				CAD3CB901DA5B44F00E6E539 /* Frameworks */,
+				CAD3CB911DA5B44F00E6E539 /* Resources */,
+				608AC0B2A680F7EBA7AA2294 /* [CP] Embed Pods Frameworks */,
+				A4BD995D5CBCFDF9829F6224 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthFinder;
+			productName = HealthFinder;
+			productReference = CAD3CB931DA5B45000E6E539 /* HealthFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD3CB8B1DA5B44F00E6E539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Bryan McLellan";
+				TargetAttributes = {
+					CAD3CB921DA5B44F00E6E539 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CAD3CB8E1DA5B44F00E6E539 /* Build configuration list for PBXProject "HealthFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD3CB8A1DA5B44F00E6E539;
+			productRefGroup = CAD3CB941DA5B45000E6E539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD3CB921DA5B44F00E6E539 /* HealthFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD3CB911DA5B44F00E6E539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD3CBA11DA5B45000E6E539 /* LaunchScreen.storyboard in Resources */,
+				CAD3CB9E1DA5B45000E6E539 /* Assets.xcassets in Resources */,
+				CAD3CB9C1DA5B45000E6E539 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BEC3C65AE00B95618ED6BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		608AC0B2A680F7EBA7AA2294 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthFinder/Pods-HealthFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BD995D5CBCFDF9829F6224 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthFinder/Pods-HealthFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD3CB8F1DA5B44F00E6E539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABDE8881DA5BE870036CF2B /* HealthFinderTableViewCell.swift in Sources */,
+				CAD3CBAA1DA5B4C000E6E539 /* HealthFinderViewController.swift in Sources */,
+				CAD3CB971DA5B45000E6E539 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAD3CB9A1DA5B45000E6E539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD3CB9B1DA5B45000E6E539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD3CB9F1DA5B45000E6E539 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD3CBA01DA5B45000E6E539 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD3CBA31DA5B45000E6E539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD3CBA41DA5B45000E6E539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD3CBA61DA5B45000E6E539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D09A63EE5795A0EAC3A72A /* Pods-HealthFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryan.HealthFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CAD3CBA71DA5B45000E6E539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A052452558ECDBB73A44E9 /* Pods-HealthFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryan.HealthFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD3CB8E1DA5B44F00E6E539 /* Build configuration list for PBXProject "HealthFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD3CBA31DA5B45000E6E539 /* Debug */,
+				CAD3CBA41DA5B45000E6E539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD3CBA51DA5B45000E6E539 /* Build configuration list for PBXNativeTarget "HealthFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD3CBA61DA5B45000E6E539 /* Debug */,
+				CAD3CBA71DA5B45000E6E539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD3CB8B1DA5B44F00E6E539 /* Project object */;
+}
